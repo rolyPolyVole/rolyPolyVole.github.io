@@ -34,7 +34,7 @@
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
       {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
+        <li><a href="mailto:{{ author.email }}"><img src="/images/custom_icons/email.png" alt="Email" style="height: 1em; margin-right: 0.5em; vertical-align: middle;">{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
       {% endif %}
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
@@ -74,7 +74,7 @@
         <li><a href="https://dribbble.com/{{ author.dribbble }}"><i class="fab fa-fw fa-dribbble icon-pad-right" aria-hidden="true"></i>Dribbble</a></li>
       {% endif %}      
       {% if author.github %}
-        <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>GitHub</a></li>
+        <li><a href="https://github.com/{{ author.github }}"><img src="/images/custom_icons/github.png" alt="GitHub" style="height: 1em; margin-right: 0.5em; vertical-align: middle;">GitHub</a></li>
       {% endif %}
       {% if author.kaggle %}
         <li><a href="https://kaggle.com/{{ author.kaggle }}"><i class="fab fa-fw fa-kaggle icon-pad-right" aria-hidden="true"></i>Kaggle</a></li>
@@ -83,16 +83,16 @@
         <li><a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fab fa-fw fa-stack-overflow icon-pad-right" aria-hidden="true"></i>Stackoverflow</a></li>
       {% endif %}
       {% if author.discord %}
-        <li><a href="{{ author.discord }}"><i class="fab fa-fw fa-discord icon-pad-right" aria-hidden="true"></i>Discord</a></li>
+        <li><a href="{{ author.discord }}"><img src="/images/custom_icons/discord.png" alt="Discord" style="height: 1em; margin-right: 0.5em; vertical-align: middle;">Discord</a></li>
       {% endif %}
       {% if author.kofi %}
-        <li><a href="{{ author.kofi }}"><i class="fas fa-fw fa-mug-hot icon-pad-right" aria-hidden="true"></i>Ko-fi</a></li>
+        <li><a href="{{ author.kofi }}"><img src="/images/custom_icons/kofi.png" alt="Ko-fi" style="height: 1em; margin-right: 0.5em; vertical-align: middle;">Ko-fi</a></li>
       {% endif %}
       {% if author.chesscom %}
-        <li><a href="{{ author.chesscom }}"><i class="fas fa-fw fa-chess-knight icon-pad-right" aria-hidden="true"></i>Chess.com</a></li>
+        <li><a href="{{ author.chesscom }}"><img src="/images/custom_icons/chesscom.png" alt="Chess.com" style="height: 1em; margin-right: 0.5em; vertical-align: middle;">Chess.com</a></li>
       {% endif %}
       {% if author.lichess %}
-        <li><a href="{{ author.lichess }}"><i class="fas fa-fw fa-chess icon-pad-right" aria-hidden="true"></i>Lichess</a></li>
+        <li><a href="{{ author.lichess }}"><img src="/images/custom_icons/lichess.png" alt="Lichess" style="height: 1em; margin-right: 0.5em; vertical-align: middle;">Lichess</a></li>
       {% endif %}
 
       <!-- Font Awesome icons / Social media -->
