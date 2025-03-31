@@ -11,10 +11,9 @@ Feel free to reach out to me via email at [rolypolyvole@gmail.com](mailto:rolypo
 
 ## Links
 
-### Professional Profiles
-- [GitHub](https://github.com/rolyPolyVole) - Check out my code repositories and projects
-
-### Social Media
-- You can find me on various platforms by searching for "rolyPolyVole"
+- GitHub - Check out my code repositories and projects
+- Discord - Contact me on Discord (username: rolyPolyVole)
+- Chess.com - Friend me on chess.com [here](https://www.chess.com/member/rolypolyvole)
+- Lichess - Friend me on lichess [here](https://lichess.org/@/rolyPolyVole)
 
 If you'd like to collaborate on a project or have any questions about my work, don't hesitate to get in touch!
