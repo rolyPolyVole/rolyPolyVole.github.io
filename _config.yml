@@ -47,7 +47,11 @@ author:
   dribbble         : # Username
   github           : "rolyPolyVole"
   kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
+  discord          : "https://discord.com/users/rolyPolyVole" # URL to Discord profile or server
+  kofi             : "https://ko-fi.com/rolyPolyVole" # URL to Ko-fi profile
+  chesscom         : "https://www.chess.com/member/rolypolyvole" # URL to Chess.com profile
+  lichess          : "https://lichess.org/@/rolyPolyVole" # URL to Lichess profile
 
   # Social media
   bluesky          : # Empty
