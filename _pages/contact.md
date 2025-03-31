@@ -11,11 +11,11 @@ Feel free to reach out to me via email at <img src="/images/custom_icons/email.p
 
 ## Links
 
-**GitHub** - Check out my code repositories and projects (username: rolyPolyVole) <img src="/images/custom_icons/github.png" alt="GitHub" style="height: 1em; margin-right: 0.5em; vertical-align: middle;">
-**Discord** - Contact me on Discord (username: rolyPolyVole) <img src="/images/custom_icons/discord.png" alt="Discord" style="height: 1em; margin-right: 0.5em; vertical-align: middle;">
-**Chess.com** - Friend me on chess.com [here](https://www.chess.com/member/rolypolyvole) <img src="/images/custom_icons/chesscom.png" alt="Chess.com" style="height: 1em; margin-right: 0.5em; vertical-align: middle;">
-**Lichess** - Add me on lichess [here](https://lichess.org/@/rolyPolyVole) <img src="/images/custom_icons/lichess.png" alt="Lichess" style="height: 1em; margin-right: 0.5em; vertical-align: middle;">
-**Ko-fi** - My former freelancing store, visit it [here](https://ko-fi.com/rolyPolyVole) <img src="/images/custom_icons/kofi.png" alt="Ko-fi" style="height: 1em; margin-right: 0.5em; vertical-align: middle;">
+- **GitHub** - Check out my code repositories and projects (username: rolyPolyVole) <img src="/images/custom_icons/github.png" alt="GitHub" style="height: 1em; margin-right: 0.5em; vertical-align: middle;">
+- **Discord** - Contact me on Discord (username: rolyPolyVole) <img src="/images/custom_icons/discord.png" alt="Discord" style="height: 1em; margin-right: 0.5em; vertical-align: middle;">
+- **Chess.com** - Friend me on chess.com [here](https://www.chess.com/member/rolypolyvole) <img src="/images/custom_icons/chesscom.png" alt="Chess.com" style="height: 1em; margin-right: 0.5em; vertical-align: middle;">
+- **Lichess** - Add me on lichess [here](https://lichess.org/@/rolyPolyVole) <img src="/images/custom_icons/lichess.png" alt="Lichess" style="height: 1em; margin-right: 0.5em; vertical-align: middle;">
+- **Ko-fi** - My former freelancing store, visit it [here](https://ko-fi.com/rolyPolyVole) <img src="/images/custom_icons/kofi.png" alt="Ko-fi" style="height: 1em; margin-right: 0.5em; vertical-align: middle;">
 
 ## Skills
 
