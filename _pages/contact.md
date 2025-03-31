@@ -17,13 +17,4 @@ Feel free to reach out to me via email at <i class="fas fa-envelope icon-pad-rig
 **Lichess** - Add me on lichess [here](https://lichess.org/@/rolyPolyVole) <i class="fas fa-chess icon-pad-right" aria-hidden="true"></i>
 *Ko-fi** - My former freelancing store, visit it [here](https://ko-fi.com/rolyPolyVole) <i class="fas fa-mug-hot icon-pad-right" aria-hidden="true"></i>*
 
-## Skills
-
-I'm proficient in the following programming languages:
-
-- <i class="fab fa-java icon-pad-right" aria-hidden="true"></i>**Java**
-- <i class="fab fa-android icon-pad-right" aria-hidden="true"></i>**Kotlin** (using Android icon as placeholder)
-- <i class="fab fa-js icon-pad-right" aria-hidden="true"></i>**JavaScript**
-- <i class="fab fa-js-square icon-pad-right" aria-hidden="true"></i>**TypeScript** (using JS square icon as placeholder)
-
 If you'd like to collaborate on a project or have any questions about my work, don't hesitate to get in touch!
