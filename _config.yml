@@ -22,7 +22,7 @@ repository               : "rolyPolyVole/rolyPolyVole.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "rolyPolyVole.png"
   name             : "rolyPolyVole"
   pronouns         : "he/him" 
   bio              : "Proficient backend developer, fluent in Java, Kotlin, JavaScript & TypeScript"
