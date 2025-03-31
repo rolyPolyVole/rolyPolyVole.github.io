@@ -15,7 +15,7 @@ I'm also a strong chess player, and I often play in tournaments and online. I'm 
 
 I'm proficient in the following programming languages:
 
-- **Java** <i class="fab fa-java icon-pad-right" aria-hidden="true"></i>
-- **Kotlin** <i class="fab fa-android icon-pad-right" aria-hidden="true"></i>
-- **JavaScript** <i class="fab fa-js icon-pad-right" aria-hidden="true"></i>
-- **TypeScript** <i class="fab fa-js-square icon-pad-right" aria-hidden="true"></i>
+- <img src="/images/custom_icons/java.png" alt="Java" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">**Java**
+- <img src="/images/custom_icons/kotlin.png" alt="Kotlin" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">**Kotlin**
+- <img src="/images/custom_icons/js.png" alt="JavaScript" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">**JavaScript**
+- <img src="/images/custom_icons/ts.png" alt="TypeScript" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">**TypeScript**
