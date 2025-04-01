@@ -49,11 +49,11 @@
   margin: 0.5em 0 1em;
   padding: 0.3em 0;
   font-size: $type-size-6;
-  color: var(--global-text-color);
+  color: var(--global-text-color-light);
   
   i {
     margin-right: 0.5em;
-    color: var(--global-theme-color);
+    color: var(--global-text-color-light);
   }
 }
 
@@ -66,4 +66,9 @@
 .project__read-more {
   display: inline-block;
   margin-top: 0.5em;
+  text-decoration: none !important;
+  
+  &:hover {
+    text-decoration: none !important;
+  }
 }

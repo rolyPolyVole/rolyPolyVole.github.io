@@ -39,19 +39,19 @@
     {% endif %}
 
     {% if post.status %}
-      <p class="project__status">
+      <p class="project__status"><strong>
         {% if post.status == "Completed" %}
-          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          <i class="fa fa-fw fa-check-circle" aria-hidden="true"></i>
         {% elsif post.status == "In Progress" %}
-          <i class="fa fa-spinner" aria-hidden="true"></i>
+          <i class="fa fa-fw fa-spinner" aria-hidden="true"></i>
         {% elsif post.status == "Planning" %}
-          <i class="fa fa-lightbulb" aria-hidden="true"></i>
+          <i class="fa fa-fw fa-lightbulb" aria-hidden="true"></i>
         {% elsif post.status == "On Hold" %}
-          <i class="fa fa-pause-circle" aria-hidden="true"></i>
+          <i class="fa fa-fw fa-pause-circle" aria-hidden="true"></i>
         {% else %}
-          <i class="fa fa-info-circle" aria-hidden="true"></i>
+          <i class="fa fa-fw fa-info-circle" aria-hidden="true"></i>
         {% endif %}
-        <span>{{ post.status }}</span>
+        {{ site.data.ui-text[site.locale].status_label | default: "Status:" }}</strong> <span>{{ post.status }}</span>
       </p>
     {% endif %}
 
