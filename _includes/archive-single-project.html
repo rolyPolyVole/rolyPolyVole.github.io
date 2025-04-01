@@ -39,19 +39,16 @@
     {% endif %}
 
     {% if post.status %}
-      <p class="project__status"><strong>
-        {% if post.status == "Completed" %}
-          <i class="fa fa-fw fa-check-circle" aria-hidden="true"></i>
-        {% elsif post.status == "In Progress" %}
-          <i class="fa fa-fw fa-spinner" aria-hidden="true"></i>
-        {% elsif post.status == "Planning" %}
-          <i class="fa fa-fw fa-lightbulb" aria-hidden="true"></i>
-        {% elsif post.status == "On Hold" %}
-          <i class="fa fa-fw fa-pause-circle" aria-hidden="true"></i>
-        {% else %}
-          <i class="fa fa-fw fa-info-circle" aria-hidden="true"></i>
-        {% endif %}
-        {{ site.data.ui-text[site.locale].status_label | default: "Status:" }}</strong> <span>{{ post.status }}</span>
+      <p class="project__status">
+        <strong>
+          {% assign status_icon = "fa-info-circle" %}
+          {% if post.status == "Completed" %}{% assign status_icon = "fa-check-circle" %}{% endif %}
+          {% if post.status == "In Progress" %}{% assign status_icon = "fa-spinner" %}{% endif %}
+          {% if post.status == "Planning" %}{% assign status_icon = "fa-lightbulb" %}{% endif %}
+          {% if post.status == "On Hold" %}{% assign status_icon = "fa-pause-circle" %}{% endif %}
+          <i class="fa fa-fw {{ status_icon }}" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].status_label | default: "Status:" }}
+        </strong> 
+        <span>{{ post.status }}</span>
       </p>
     {% endif %}
 

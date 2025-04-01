@@ -35,6 +35,12 @@
 html[data-theme="dark"] {
   .project__card {
     background-color: #252525; /* Slightly lighter than dark mode background (#1a1a1a) */
+    border-color: #333; /* Darker border instead of white */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    
+    &:hover {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    }
   }
 }
 
