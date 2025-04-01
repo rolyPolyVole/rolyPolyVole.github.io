@@ -565,8 +565,28 @@ a.reversefootnote {
   margin-bottom: 0.5em;
 }
 
+/* Adjust tooltip positioning for contact page icons */
+.contact-links .tooltip .tooltip-text {
+  left: calc(50% - 0.25em); /* Adjust for the margin-right */
+}
+
+.contact-links .tooltip .tooltip-text::after {
+  left: calc(50% + 0.25em); /* Adjust for the margin-right */
+}
+
 /* Styling for author profile sidebar tooltips */
 .author__urls.social-icons .tooltip {
   display: block;
   margin-bottom: 0.5em;
+}
+
+/* Adjust tooltip positioning for sidebar icons */
+.author__urls.social-icons .tooltip .tooltip-text {
+  left: 1.5em; /* Position near the icon */
+  transform: none; /* Remove the default centering */
+}
+
+.author__urls.social-icons .tooltip .tooltip-text::after {
+  left: 1em; /* Position the arrow under the tooltip, aligned with the icon */
+  transform: none; /* Remove the default centering */
 }

@@ -43,4 +43,6 @@ author_profile: true
   </div>
 </div>
 
+<br />
+
 If you'd like to collaborate on a project or have any questions about my work, don't hesitate to get in touch!
