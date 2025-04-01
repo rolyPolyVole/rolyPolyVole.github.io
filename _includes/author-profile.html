@@ -31,143 +31,143 @@
         <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
       {% endif %}
       {% if author.uri %}
-        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
+        <li class="tooltip"><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a><span class="tooltip-text">Visit my website</span></li>
       {% endif %}
       {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><img src="/images/custom_icons/email.png" alt="Email" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
+        <li class="tooltip"><a href="mailto:{{ author.email }}"><img src="/images/custom_icons/email.png" alt="Email" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a><span class="tooltip-text">Send me an email</span></li>
       {% endif %}
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
       {% if author.arxiv %}
-        <li><a href="{{ author.arxiv }}"><i class="ai ai-arxiv ai-fw icon-pad-right"></i>arXiv</a></li>
+        <li class="tooltip"><a href="{{ author.arxiv }}"><i class="ai ai-arxiv ai-fw icon-pad-right"></i>arXiv</a><span class="tooltip-text">View my papers on arXiv</span></li>
       {% endif %}      
       {% if author.googlescholar %}
-        <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar icon-pad-right"></i>Google Scholar</a></li>
+        <li class="tooltip"><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar icon-pad-right"></i>Google Scholar</a><span class="tooltip-text">View my Google Scholar profile</span></li>
       {% endif %}
       {% if author.semantic %}
-        <li><a href="{{ author.semantic }}"><i class="ai ai-semantic-scholar ai-fw icon-pad-right"></i>Semantic Scholar</a></li>
+        <li class="tooltip"><a href="{{ author.semantic }}"><i class="ai ai-semantic-scholar ai-fw icon-pad-right"></i>Semantic Scholar</a><span class="tooltip-text">View my Semantic Scholar profile</span></li>
       {% endif %}
       {% if author.impactstory %}
-        <li><a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw icon-pad-right"></i>Impactstory</a></li>
+        <li class="tooltip"><a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw icon-pad-right"></i>Impactstory</a><span class="tooltip-text">Check my research impact</span></li>
       {% endif %}
       {% if author.orcid %}
-        <li><a href="{{ author.orcid }}"><i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID</a></li>
+        <li class="tooltip"><a href="{{ author.orcid }}"><i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID</a><span class="tooltip-text">View my ORCID profile</span></li>
       {% endif %}
       {% if author.pubmed %}
-        <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed ai-fw icon-pad-right"></i>PubMed</a></li>
+        <li class="tooltip"><a href="{{ author.pubmed }}"><i class="ai ai-pubmed ai-fw icon-pad-right"></i>PubMed</a><span class="tooltip-text">View my publications on PubMed</span></li>
       {% endif %}                        
       {% if author.researchgate %}
-        <li><a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate icon-pad-right" aria-hidden="true"></i>ResearchGate</a></li>
+        <li class="tooltip"><a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate icon-pad-right" aria-hidden="true"></i>ResearchGate</a><span class="tooltip-text">Connect with me on ResearchGate</span></li>
       {% endif %}
       {% if author.scopus %}
-        <li><a href="{{ author.scopus }}"><i class="ai ai-scopus icon-pad-right"></i>Scopus</a></li>
+        <li class="tooltip"><a href="{{ author.scopus }}"><i class="ai ai-scopus icon-pad-right"></i>Scopus</a><span class="tooltip-text">View my publications on Scopus</span></li>
       {% endif %}
 
       <!-- Font Awesome icons / Repositories and software development -->
       {% if author.bitbucket %}
-        <li><a href="https://bitbucket.org/{{ author.bitbucket }}"><i class="fab fa-fw fa-bitbucket icon-pad-right" aria-hidden="true"></i>Bitbucket</a></li>
+        <li class="tooltip"><a href="https://bitbucket.org/{{ author.bitbucket }}"><i class="fab fa-fw fa-bitbucket icon-pad-right" aria-hidden="true"></i>Bitbucket</a><span class="tooltip-text">View my Bitbucket repositories</span></li>
       {% endif %}
       {% if author.codepen %}
-        <li><a href="https://codepen.io/{{ author.codepen }}"><i class="fab fa-fw fa-codepen icon-pad-right" aria-hidden="true"></i>CodePen</a></li>
+        <li class="tooltip"><a href="https://codepen.io/{{ author.codepen }}"><i class="fab fa-fw fa-codepen icon-pad-right" aria-hidden="true"></i>CodePen</a><span class="tooltip-text">See my code demos on CodePen</span></li>
       {% endif %}      
       {% if author.dribbble %}
-        <li><a href="https://dribbble.com/{{ author.dribbble }}"><i class="fab fa-fw fa-dribbble icon-pad-right" aria-hidden="true"></i>Dribbble</a></li>
-      {% endif %}      
+        <li class="tooltip"><a href="https://dribbble.com/{{ author.dribbble }}"><i class="fab fa-fw fa-dribbble icon-pad-right" aria-hidden="true"></i>Dribbble</a><span class="tooltip-text">View my design work on Dribbble</span></li>
+      {% endif %}
       {% if author.github %}
-        <li><a href="https://github.com/{{ author.github }}"><img src="/images/custom_icons/github.png" alt="GitHub" class="theme-aware-icon github-icon" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">GitHub</a></li>
+        <li class="tooltip"><a href="https://github.com/{{ author.github }}"><img src="/images/custom_icons/github.png" alt="GitHub" class="theme-aware-icon github-icon" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">GitHub</a><span class="tooltip-text">View my GitHub profile</span></li>
       {% endif %}
       {% if author.kaggle %}
-        <li><a href="https://kaggle.com/{{ author.kaggle }}"><i class="fab fa-fw fa-kaggle icon-pad-right" aria-hidden="true"></i>Kaggle</a></li>
+        <li class="tooltip"><a href="https://kaggle.com/{{ author.kaggle }}"><i class="fab fa-fw fa-kaggle icon-pad-right" aria-hidden="true"></i>Kaggle</a><span class="tooltip-text">Check out my Kaggle profile</span></li>
       {% endif %}      
       {% if author.stackoverflow %}
-        <li><a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fab fa-fw fa-stack-overflow icon-pad-right" aria-hidden="true"></i>Stackoverflow</a></li>
+        <li class="tooltip"><a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fab fa-fw fa-stack-overflow icon-pad-right" aria-hidden="true"></i>Stackoverflow</a><span class="tooltip-text">View my Stack Overflow profile</span></li>
       {% endif %}
       {% if author.discord %}
-        <li><a href="{{ author.discord }}"><img src="/images/custom_icons/discord.png" alt="Discord" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">Discord</a></li>
+        <li class="tooltip"><a href="{{ author.discord }}"><img src="/images/custom_icons/discord.png" alt="Discord" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">Discord</a><span class="tooltip-text">Connect with me on Discord</span></li>
       {% endif %}
       {% if author.kofi %}
-        <li><a href="{{ author.kofi }}"><img src="/images/custom_icons/kofi.png" alt="Ko-fi" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">Ko-fi</a></li>
+        <li class="tooltip"><a href="{{ author.kofi }}"><img src="/images/custom_icons/kofi.png" alt="Ko-fi" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">Ko-fi</a><span class="tooltip-text">Support me on Ko-fi</span></li>
       {% endif %}
       {% if author.chesscom %}
-        <li><a href="{{ author.chesscom }}"><img src="/images/custom_icons/chesscom.png" alt="Chess.com" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">Chess.com</a></li>
+        <li class="tooltip"><a href="{{ author.chesscom }}"><img src="/images/custom_icons/chesscom.png" alt="Chess.com" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">Chess.com</a><span class="tooltip-text">Play chess with me on Chess.com</span></li>
       {% endif %}
       {% if author.lichess %}
-        <li><a href="{{ author.lichess }}"><img src="/images/custom_icons/lichess.png" alt="Lichess" class="theme-aware-icon lichess-icon" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">Lichess</a></li>
+        <li class="tooltip"><a href="{{ author.lichess }}"><img src="/images/custom_icons/lichess.png" alt="Lichess" class="theme-aware-icon lichess-icon" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">Lichess</a><span class="tooltip-text">Play chess with me on Lichess</span></li>
       {% endif %}
 
       <!-- Font Awesome icons / Social media -->
       {% if author.bluesky %}
-        <li><a href="https://bsky.app/profile/{{ author.bluesky }}"><i class="fab fa-fw fa-bluesky icon-pad-right" aria-hidden="true"></i>Bluesky</a></li>
+        <li class="tooltip"><a href="https://bsky.app/profile/{{ author.bluesky }}"><i class="fab fa-fw fa-bluesky icon-pad-right" aria-hidden="true"></i>Bluesky</a><span class="tooltip-text">Follow me on Bluesky</span></li>
       {% endif %}
       {% if author.facebook %}
-        <li><a href="https://www.facebook.com/{{ author.facebook }}"><i class="fab fa-fw fa-facebook-f icon-pad-right" aria-hidden="true"></i>Facebook</a></li>
+        <li class="tooltip"><a href="https://www.facebook.com/{{ author.facebook }}"><i class="fab fa-fw fa-facebook-f icon-pad-right" aria-hidden="true"></i>Facebook</a><span class="tooltip-text">Connect with me on Facebook</span></li>
       {% endif %}
       {% if author.flickr %}
-        <li><a href="https://www.flickr.com/{{ author.flickr }}"><i class="fab fa-fw fa-flickr icon-pad-right" aria-hidden="true"></i>Flickr</a></li>
+        <li class="tooltip"><a href="https://www.flickr.com/{{ author.flickr }}"><i class="fab fa-fw fa-flickr icon-pad-right" aria-hidden="true"></i>Flickr</a><span class="tooltip-text">View my photos on Flickr</span></li>
       {% endif %}      
       {% if author.foursquare %}
-        <li><a href="https://foursquare.com/{{ author.foursquare }}"><i class="fab fa-fw fa-foursquare icon-pad-right" aria-hidden="true"></i>Foursquare</a></li>
+        <li class="tooltip"><a href="https://foursquare.com/{{ author.foursquare }}"><i class="fab fa-fw fa-foursquare icon-pad-right" aria-hidden="true"></i>Foursquare</a><span class="tooltip-text">Find me on Foursquare</span></li>
       {% endif %}
       {% if author.goodreads %}
-        <li><a href="https://www.goodreads.com/{{ author.goodreads }}"><i class="fab fa-fw fa-goodreads icon-pad-right" aria-hidden="true"></i>Goodreads</a></li>
+        <li class="tooltip"><a href="https://www.goodreads.com/{{ author.goodreads }}"><i class="fab fa-fw fa-goodreads icon-pad-right" aria-hidden="true"></i>Goodreads</a><span class="tooltip-text">See what I'm reading on Goodreads</span></li>
       {% endif %}            
       {% if author.google_plus %}
-        <li><a href="https://plus.google.com/+{{ author.google_plus }}"><i class="fab fa-fw fa-google-plus-g icon-pad-right" aria-hidden="true"></i>Google+</a></li>
+        <li class="tooltip"><a href="https://plus.google.com/+{{ author.google_plus }}"><i class="fab fa-fw fa-google-plus-g icon-pad-right" aria-hidden="true"></i>Google+</a><span class="tooltip-text">Find me on Google+</span></li>
       {% endif %}            
       {% if author.keybase %}
-        <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key icon-pad-right" aria-hidden="true"></i>Keybase</a></li>
+        <li class="tooltip"><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key icon-pad-right" aria-hidden="true"></i>Keybase</a><span class="tooltip-text">Verify my identity on Keybase</span></li>
       {% endif %}
       {% if author.instagram %}
-        <li><a href="https://instagram.com/{{ author.instagram }}"><i class="fab fa-fw fa-instagram icon-pad-right" aria-hidden="true"></i>Instagram</a></li>
+        <li class="tooltip"><a href="https://instagram.com/{{ author.instagram }}"><i class="fab fa-fw fa-instagram icon-pad-right" aria-hidden="true"></i>Instagram</a><span class="tooltip-text">Follow me on Instagram</span></li>
       {% endif %}      
       {% if author.lastfm %}
-        <li><a href="https://last.fm/user/{{ author.lastfm }}"><i class="fab fa-fw fa-lastfm icon-pad-right" aria-hidden="true"></i>Last.fm</a></li>
+        <li class="tooltip"><a href="https://last.fm/user/{{ author.lastfm }}"><i class="fab fa-fw fa-lastfm icon-pad-right" aria-hidden="true"></i>Last.fm</a><span class="tooltip-text">Check out my music on Last.fm</span></li>
       {% endif %}      
       {% if author.linkedin %}
-        <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a></li>
+        <li class="tooltip"><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a><span class="tooltip-text">Connect with me on LinkedIn</span></li>
       {% endif %}      
       {% if author.mastodon %}
-        <li><a href="{{ author.mastodon }}"><i class="fab fa-fw fa-mastodon icon-pad-right" aria-hidden="true"></i>Mastodon</a></li>
+        <li class="tooltip"><a href="{{ author.mastodon }}"><i class="fab fa-fw fa-mastodon icon-pad-right" aria-hidden="true"></i>Mastodon</a><span class="tooltip-text">Follow me on Mastodon</span></li>
       {% endif %}
       {% if author.medium %}
-        <li><a href="{{ author.medium }}"><i class="fab fa-fw fa-medium icon-pad-right" aria-hidden="true"></i>Medium</a></li>
+        <li class="tooltip"><a href="{{ author.medium }}"><i class="fab fa-fw fa-medium icon-pad-right" aria-hidden="true"></i>Medium</a><span class="tooltip-text">Read my articles on Medium</span></li>
       {% endif %}      
       {% if author.pinterest %}
-        <li><a href="https://www.pinterest.com/{{ author.pinterest }}"><i class="fab fa-fw fa-pinterest icon-pad-right" aria-hidden="true"></i>Pinterest</a></li>
+        <li class="tooltip"><a href="https://www.pinterest.com/{{ author.pinterest }}"><i class="fab fa-fw fa-pinterest icon-pad-right" aria-hidden="true"></i>Pinterest</a><span class="tooltip-text">Follow my boards on Pinterest</span></li>
       {% endif %}            
       {% if author.soundcloud %}
-        <li><a href="https://soundcloud.com/{{ author.soundcloud }}"><i class="fab fa-fw fa-soundcloud icon-pad-right" aria-hidden="true"></i>Soundcloud</a></li>
+        <li class="tooltip"><a href="https://soundcloud.com/{{ author.soundcloud }}"><i class="fab fa-fw fa-soundcloud icon-pad-right" aria-hidden="true"></i>Soundcloud</a><span class="tooltip-text">Listen to my tracks on Soundcloud</span></li>
       {% endif %}      
       {% if author.steam %}
-        <li><a href="https://steamcommunity.com/id/{{ author.steam }}"><i class="fab fa-fw fa-steam icon-pad-right" aria-hidden="true"></i>Steam</a></li>
+        <li class="tooltip"><a href="https://steamcommunity.com/id/{{ author.steam }}"><i class="fab fa-fw fa-steam icon-pad-right" aria-hidden="true"></i>Steam</a><span class="tooltip-text">Play games with me on Steam</span></li>
       {% endif %}
       {% if author.telegram %}
-        <li><a href="{{ author.telegram }}"><i class="fab fa-fw fa-telegram icon-pad-right" aria-hidden="true"></i>Telegram</a></li>
+        <li class="tooltip"><a href="{{ author.telegram }}"><i class="fab fa-fw fa-telegram icon-pad-right" aria-hidden="true"></i>Telegram</a><span class="tooltip-text">Message me on Telegram</span></li>
       {% endif %}      
       {% if author.tumblr %}
-        <li><a href="https://{{ author.tumblr }}.tumblr.com"><i class="fab fa-fw fa-tumblr icon-pad-right" aria-hidden="true"></i>Tumblr</a></li>
+        <li class="tooltip"><a href="https://{{ author.tumblr }}.tumblr.com"><i class="fab fa-fw fa-tumblr icon-pad-right" aria-hidden="true"></i>Tumblr</a><span class="tooltip-text">Follow my blog on Tumblr</span></li>
       {% endif %}      
       {% if author.twitter %}
-        <li><a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-x-twitter icon-pad-right" aria-hidden="true"></i>X (formerly Twitter)</a></li>
+        <li class="tooltip"><a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-x-twitter icon-pad-right" aria-hidden="true"></i>X (formerly Twitter)</a><span class="tooltip-text">Follow me on X (Twitter)</span></li>
       {% endif %}
       {% if author.vine %}
-        <li><a href="https://vine.co/u/{{ author.vine }}"><i class="fab fa-fw fa-vine icon-pad-right" aria-hidden="true"></i>Vine</a></li>
+        <li class="tooltip"><a href="https://vine.co/u/{{ author.vine }}"><i class="fab fa-fw fa-vine icon-pad-right" aria-hidden="true"></i>Vine</a><span class="tooltip-text">Watch my videos on Vine</span></li>
       {% endif %}        
       {% if author.weibo %}
-        <li><a href="https://www.weibo.com/{{ author.weibo }}"><i class="fab fa-fw fa-weibo icon-pad-right" aria-hidden="true"></i>Weibo</a></li>
+        <li class="tooltip"><a href="https://www.weibo.com/{{ author.weibo }}"><i class="fab fa-fw fa-weibo icon-pad-right" aria-hidden="true"></i>Weibo</a><span class="tooltip-text">Follow me on Weibo</span></li>
       {% endif %}
       {% if author.wikipedia %}
-        <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w icon-pad-right" aria-hidden="true"></i>Wikipedia</a></li>
+        <li class="tooltip"><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w icon-pad-right" aria-hidden="true"></i>Wikipedia</a><span class="tooltip-text">View my Wikipedia contributions</span></li>
       {% endif %}                
       {% if author.xing %}
-        <li><a href="https://www.xing.com/profile/{{ author.xing }}"><i class="fab fa-fw fa-xing icon-pad-right" aria-hidden="true"></i>XING</a></li>
+        <li class="tooltip"><a href="https://www.xing.com/profile/{{ author.xing }}"><i class="fab fa-fw fa-xing icon-pad-right" aria-hidden="true"></i>XING</a><span class="tooltip-text">Connect with me on XING</span></li>
       {% endif %}
       {% if author.youtube %}
-        <li><a href="https://www.youtube.com/@{{ author.youtube }}"><i class="fab fa-fw fa-youtube icon-pad-right" aria-hidden="true"></i>YouTube</a></li>
+        <li class="tooltip"><a href="https://www.youtube.com/@{{ author.youtube }}"><i class="fab fa-fw fa-youtube icon-pad-right" aria-hidden="true"></i>YouTube</a><span class="tooltip-text">Subscribe to my YouTube channel</span></li>
       {% endif %}
       {% if author.zhihu %}
-      <li><a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>Zhihu</a></li>
-      {% endif %}      
+      <li class="tooltip"><a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>Zhihu</a><span class="tooltip-text">Follow me on Zhihu</span></li>
+      {% endif %}
     </ul>
   </div>
 </div>

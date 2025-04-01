@@ -502,3 +502,57 @@ a.reversefootnote {
   color: $danger-color;
   font-weight: bold;
 }
+
+
+/*
+   Tooltips
+   ========================================================================== */
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: auto;
+  min-width: 120px;
+  background-color: var(--global-text-color);
+  color: var(--global-background-color);
+  text-align: center;
+  border-radius: $border-radius;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  box-shadow: $box-shadow;
+  font-size: $type-size-6;
+  white-space: nowrap;
+}
+
+/* Adjustments for larger icons (like those on the contact page) */
+.tooltip img[style*="width: 3em"] ~ .tooltip-text {
+  bottom: 130%;
+  font-size: $type-size-5;
+  padding: 8px 15px;
+}
+
+.tooltip .tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: var(--global-text-color) transparent transparent transparent;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
