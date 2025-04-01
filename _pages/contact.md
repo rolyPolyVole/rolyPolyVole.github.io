@@ -7,10 +7,11 @@ author_profile: true
 
 ## Contact Information
 
-Feel free to reach out to me via email at <img src="/images/custom_icons/email.png" alt="Email" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">[rolypolyvole@gmail.com](mailto:rolypolyvole@gmail.com).
+<img src="/images/custom_icons/email.png" alt="Email" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;"> Feel free to reach out to me via email at [rolypolyvole@gmail.com](mailto:rolypolyvole@gmail.com).
 
 ## Links
 
+<a href="mailto:rolypolyvole@gmail.com"><img src="/images/custom_icons/email.png" alt="Email" style="width: 3em; height: 3em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;"></a>
 <a href="https://github.com/rolyPolyVole" target="_blank"><img src="/images/custom_icons/github.png" alt="GitHub" class="theme-aware-icon github-icon" style="width: 3em; height: 3em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;"></a>
 <a href="https://discord.com/users/rolyPolyVole" target="_blank"><img src="/images/custom_icons/discord.png" alt="Discord" style="width: 3em; height: 3em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;"></a>
 <a href="https://chess.com/member/rolyPolyVole" target="_blank"><img src="/images/custom_icons/chesscom.png" alt="Chess.com" style="width: 3em; height: 3em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;"></a>
