@@ -517,7 +517,7 @@ a.reversefootnote {
   visibility: hidden;
   width: auto;
   min-width: 120px;
-  background-color: #000;
+  background-color: #777;
   color: #fff;
   text-align: center;
   border-radius: $border-radius;
@@ -536,22 +536,15 @@ a.reversefootnote {
   pointer-events: none;
 }
 
-/* Adjustments for larger icons (like those on the contact page) */
-.tooltip img[style*="width: 3em"] ~ .tooltip-text {
-  bottom: 130%;
-  font-size: $type-size-5;
-  padding: 8px 15px;
-}
-
 .tooltip .tooltip-text::after {
   content: "";
   position: absolute;
   top: 100%;
   left: 50%;
-  margin-left: -5px;
+  transform: translateX(-50%);
   border-width: 5px;
   border-style: solid;
-  border-color: #000 transparent transparent transparent;
+  border-color: #777 transparent transparent transparent;
 }
 
 .tooltip:hover .tooltip-text {
@@ -561,12 +554,15 @@ a.reversefootnote {
 
 /* Styling for contact links container */
 .contact-links {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .contact-links .tooltip {
-  display: block;
-  margin-bottom: 1em;
+  display: inline-block;
+  margin-right: 1em;
+  margin-bottom: 0.5em;
 }
 
 /* Styling for author profile sidebar tooltips */
