@@ -4,6 +4,7 @@ excerpt: "A brief description of this sample project"
 collection: projects
 permalink: /projects/sample-project/
 date: 2023-01-01
+status: "Completed"
 header:
   teaser: "500x300.png"
 ---

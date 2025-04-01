@@ -1,0 +1,69 @@
+/* ==========================================================================
+   PROJECTS
+   ========================================================================== */
+
+.project__item {
+  margin-bottom: 2em;
+
+  @include breakpoint($medium) {
+    padding-right: $right-sidebar-width-narrow;
+  }
+
+  @include breakpoint($large) {
+    padding-right: $right-sidebar-width;
+  }
+
+  @include breakpoint($x-large) {
+    padding-right: $right-sidebar-width-wide;
+  }
+}
+
+.project__card {
+  padding: 1.5em;
+  background-color: var(--global-bg-color);
+  border-radius: 8px;
+  border: 1px solid var(--global-border-color);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.project__item-title {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-family: $sans-serif-narrow;
+  font-size: $type-size-4;
+  color: var(--global-text-color);
+}
+
+.project__date {
+  margin: 0.5em 0;
+  color: var(--global-text-color-light);
+  font-size: $type-size-6;
+}
+
+.project__status {
+  margin: 0.5em 0 1em;
+  padding: 0.3em 0;
+  font-size: $type-size-6;
+  color: var(--global-text-color);
+  
+  i {
+    margin-right: 0.5em;
+    color: var(--global-theme-color);
+  }
+}
+
+.project__item-excerpt {
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  font-size: $type-size-6;
+}
+
+.project__read-more {
+  display: inline-block;
+  margin-top: 0.5em;
+}
