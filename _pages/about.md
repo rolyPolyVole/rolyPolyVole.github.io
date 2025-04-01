@@ -19,3 +19,8 @@ I'm proficient in the following programming languages
 <a href="https://kotlinlang.org/" target="_blank"><img src="/images/custom_icons/kotlin.png" alt="Kotlin" style="width: 3em; height: 3em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;"></a>
 <a href="https://nodejs.org/en" target="_blank"><img src="/images/custom_icons/nodejs.png" alt="JavaScript" style="width: 6em; height: 3em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;"></a>
 <a href="https://www.typescriptlang.org/" target="_blank"><img src="/images/custom_icons/ts.png" alt="TypeScript" style="width: 3em; height: 3em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;"></a>
+<br></br>
+
+And trying to learn these
+
+<a href="https://www.python.org/" target="_blank"><img src="/images/custom_icons/py.png" alt="Python" style="width: 3em; height: 3em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;"></a>
