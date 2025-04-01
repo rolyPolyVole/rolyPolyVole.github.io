@@ -15,7 +15,7 @@ I'm also a strong chess player, and I often play in tournaments and online. I'm 
 
 I'm proficient in the following programming languages
 
-<img src="/images/custom_icons/java.png" alt="Java" style="width: 3em; height: 3em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">
-<img src="/images/custom_icons/kotlin.png" alt="Kotlin" style="width: 3em; height: 3em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">
-<img src="/images/custom_icons/js.png" alt="JavaScript" style="width: 3em; height: 3em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">
-<img src="/images/custom_icons/ts.png" alt="TypeScript" style="width: 3em; height: 3em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">
+<a href="https://www.java.com/en/"><img src="/images/custom_icons/java.png" alt="Java" style="width: 3em; height: 3em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;"></a>
+<a href="https://kotlinlang.org/"><img src="/images/custom_icons/kotlin.png" alt="Kotlin" style="width: 3em; height: 3em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;"><img src="/images/custom_icons/js.png" alt="JavaScript" style="width: 3em; height: 3em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;"></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"></a>
+<a href="https://www.typescriptlang.org/"><img src="/images/custom_icons/ts.png" alt="TypeScript" style="width: 3em; height: 3em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;"></a>
