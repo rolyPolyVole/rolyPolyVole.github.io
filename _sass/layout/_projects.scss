@@ -31,6 +31,13 @@
   }
 }
 
+/* Dark mode specific styling */
+html[data-theme="dark"] {
+  .project__card {
+    background-color: #252525; /* Slightly lighter than dark mode background (#1a1a1a) */
+  }
+}
+
 .project__item-title {
   margin-top: 0;
   margin-bottom: 0.5em;
