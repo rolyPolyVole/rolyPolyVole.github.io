@@ -33,7 +33,7 @@ author_profile: true
 </span>
 <span class="tooltip">
   <a href="https://ko-fi.com/rolyPolyVole" target="_blank"><img src="/images/custom_icons/kofi.png" alt="Ko-fi" style="width: 3em; height: 3em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;"></a>
-  <span class="tooltip-text">Support me on Ko-fi</span>
+  <span class="tooltip-text">Visit my Ko-fi site</span>
 </span>
 
 If you'd like to collaborate on a project or have any questions about my work, don't hesitate to get in touch!
