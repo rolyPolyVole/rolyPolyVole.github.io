@@ -13,9 +13,9 @@ I'm also a strong chess player, and I often play in tournaments and online. I'm 
 
 ## Skills
 
-I'm proficient in the following programming languages:
+I'm proficient in the following programming languages
 
-- **Java** <img src="/images/custom_icons/java.png" alt="Java" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">
-- **Kotlin** <img src="/images/custom_icons/kotlin.png" alt="Kotlin" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">
-- **JavaScript** <img src="/images/custom_icons/js.png" alt="JavaScript" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">
-- **TypeScript** <img src="/images/custom_icons/ts.png" alt="TypeScript" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">
+<img src="/images/custom_icons/java.png" alt="Java" style="width: 3em; height: 3em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">
+<img src="/images/custom_icons/kotlin.png" alt="Kotlin" style="width: 3em; height: 3em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">
+<img src="/images/custom_icons/js.png" alt="JavaScript" style="width: 3em; height: 3em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">
+<img src="/images/custom_icons/ts.png" alt="TypeScript" style="width: 3em; height: 3em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">
