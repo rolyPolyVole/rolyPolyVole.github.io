@@ -49,4 +49,13 @@ html[data-theme="dark"] {
     --global-text-color                 : #{$text};
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$background-lighter};
+    
+    /* Swap icons for dark mode versions */
+    .theme-aware-icon.github-icon {
+        content: url("/images/custom_icons/github_dark.png");
+    }
+    
+    .theme-aware-icon.lichess-icon {
+        content: url("/images/custom_icons/lichess_dark.png");
+    }
 }
