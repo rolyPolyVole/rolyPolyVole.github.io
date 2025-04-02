@@ -9,7 +9,8 @@ header:
   teaser: "firework-wars.png"
 ---
 
-# The minigame
+
+# The Minigame
 The goal in Firework Wars is to kill all other teams using firework-focused weapons. Each team begins in a different part of the map. Loot chests are spread around the map, containing vital supplies for surviving. Central chests tend to have better loot. Every map is (partly) hand-built and highly unique, filled with custom features, easter eggs, secrets and traps.
 
 # How it all started
@@ -44,21 +45,20 @@ In March 2025, I bought a new laptop, freeing my old one to be turned into a ser
 
 The CPU can handle 2-4 servers maybe, memory is slightly worrying but I can upgrade it to 32GB, and the secondary storage is more than enough.
 
-After 2 days of work, I got the server fully set up. I installed everything I needed, took all of the security measures, and enabled remote ssh connection so I can control my server from anywhere. I bought the domain `fireworkwars.xyz` **(***all the way back in November, I severely overestimated how fast I can work***)** and configured `play.fireworkwars.xyz` to lead to the server.
+After 2 days of work, I got the server fully set up. I installed everything I needed, took all of the security measures, and enabled remote ssh connection so I can control my server from anywhere. I bought the domain `fireworkwars.xyz` *(all the way back in November, I severely overestimated how fast I can work)* and configured `play.fireworkwars.xyz` to lead to the server.
 
 # Future plans
 We've done everything else, so now it's time to get a playerbase. I made a YouTube channel and posted some showcases, but the main plan is to reach out to a small youtuber who's willing to make a video or two on our server.
 
 # Links
-This project is not open-source, as we plan to make money off it later on. However, the lobby and the core plugin are available, and all of our maps are also on our GitHub. **(***Yes you can put Minecraft worlds there, it's pretty convenient actually***)** <br />
+This project is not open-source, as we plan to make money off it later on. However, the lobby and the core plugin are available, and all of our maps are also on our GitHub. *(Yes you can put Minecraft worlds there, it's pretty convenient actually)* <br />
 
-https://github.com/fireworkwars <br />
-https://youtube.com/fireworkwarsmc
+<img src="/images/custom_icons/github.png" alt="GitHub" class="theme-aware-icon github-icon" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">https://github.com/fireworkwars <br />
+<img src="/images/custom_icons/youtube.png" alt="YouTube" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">https://youtube.com/fireworkwarsmc
 
 # Try it out
-Join the server with the following IP: `play.fireworkwars.xyz` <br />
-
-Also check out our Discord: https://discord.fireworkwars.xyz
+<img src="/images/custom_icons/play.png" alt="Server" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">Join the server with the following IP: `play.fireworkwars.xyz` <br />
+<img src="/images/custom_icons/discord.png" alt="Discord" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">Also check out our Discord: https://discord.fireworkwars.xyz
 
 # Members
 
