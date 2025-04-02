@@ -92,9 +92,9 @@ layout: default
         {% include page__taxonomy.html %}
       </footer>
 
-      {% if page.share %}{% include social-share.html %}{% endif %}
+      {% if page.share and page.collection != 'projects' %}{% include social-share.html %}{% endif %}
 
-      {% include post_pagination.html %}
+      {% if page.collection != 'projects' %}{% include post_pagination.html %}{% endif %}
     </div>
 
     {% if site.comments.provider and page.comments %}
