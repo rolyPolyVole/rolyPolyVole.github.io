@@ -23,7 +23,7 @@
     {% endif %}
 
     {% if post.read_time %}
-      <p class="project__date"><strong><i class="fa fa-fw fa-clock" aria-hidden="true"></i> Read Time:</strong> {% include read-time.html %}</p>
+      <p class="project__date"><strong><i class="fa fa-fw fa-clock" aria-hidden="true"></i> Read Time:</strong> <time>{% include read-time.html %}</time></p>
     {% endif %}
 
     {% if teaser %}
