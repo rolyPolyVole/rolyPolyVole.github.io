@@ -4,7 +4,7 @@ excerpt: "A Minecraft minigame that grew from a small inspiration to a server of
 collection: projects
 permalink: /projects/firework-wars/
 date: 2025-04-02
-status: "Work in progress"
+status: "In progress"
 header:
   teaser: "500x300.png"
 ---
