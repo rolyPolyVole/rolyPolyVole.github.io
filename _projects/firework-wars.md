@@ -71,6 +71,9 @@ This project is not open-source, as we plan to make money off it later on. Howev
   text-decoration: none;
   color: inherit;
 }
+.member__link:hover {
+  text-decoration: none;
+}
 .member__link:hover .member__card {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
@@ -83,6 +86,11 @@ This project is not open-source, as we plan to make money off it later on. Howev
   border: 1px solid var(--global-border-color);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease;
+}
+/* Dark mode specific styling */
+html[data-theme="dark"] .member__card {
+  background-color: #252525; /* Slightly lighter than dark mode background */
+  border-color: #333; /* Darker border instead of white */
 }
 .member__avatar {
   margin-right: 1.5em;
