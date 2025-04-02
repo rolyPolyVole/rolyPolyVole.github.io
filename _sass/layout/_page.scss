@@ -240,6 +240,11 @@
   }
 }
 
+/* Reduce spacing between publish date and status on project pages */
+.page__date + .page__date {
+  margin-top: -0.33em; /* Reduce spacing by 33% */
+}
+
 .page__meta-title {
   margin-bottom: 10px;
   font-size: $type-size-6;
