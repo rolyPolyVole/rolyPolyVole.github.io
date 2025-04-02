@@ -16,7 +16,7 @@ The goal in Firework Wars is to kill all other teams using firework-focused weap
 <br />
 
 # How it all started
-I was playing on a Minecraft server called <img src="/images/custom_icons/pvplegacy.png" alt="PvPLegacy" style="width: 1.5em; height: 1.5em; object-fit: contain; margin-right: 0.3em; vertical-align: middle;">PvPLegacy with my friend one day. The server allows you to create your own kits *(i.e. the inventory contents of each player)* and duel other players with them. We joined a 3v3 game whose kit was a WWI themed kit, with fireworks and crossbows as the main weapon. It was extremely fun, and after the owner of the kit left, I decided to take that kit and improve on it.
+I was playing on a Minecraft server called <img src="/images/custom_icons/pvplegacy.png" alt="PvPLegacy" style="width: 1.5em; height: 1.5em; object-fit: contain; margin-right: 0.2em; vertical-align: middle;">PvPLegacy with my friend one day. The server allows you to create your own kits *(i.e. the inventory contents of each player)* and duel other players with them. We joined a 3v3 game whose kit was a WWI themed kit, with fireworks and crossbows as the main weapon. It was extremely fun, and after the owner of the kit left, I decided to take that kit and improve on it.
 
 In summer of 2024, we thought of making our own custom minigame, instead of being limited by the features of that server. At the time I was working on a few other projects, so it was not until August that we started the project. I was on holidays in Thailand at the time, but I still got one very key feature working — the firework guns.
 
