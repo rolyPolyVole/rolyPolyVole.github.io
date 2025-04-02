@@ -15,16 +15,16 @@ The goal in Firework Wars is to kill all other teams using firework-focused weap
 ### How it all started
 I was playing on a Minecraft server called PvPLegacy with my friend one day. The server allows you to create your own kits (i.e. the inventory contents of each player) and duel other players with them. We joined a 3v3 game whose kit was a WWI themed kit, with fireworks and crossbows as the main weapon. It was extremely fun, and after the owner of the kit left, I decided to take that kit and improve on it.
 
-In summer of 2024, we thought of making our own custom minigame, instead of being limited by the features of that server. At the time I was working on a few other projects, so it was not until August that we started the project. I was on holidays in Thailand at the time, but I still got one very key feature working - the firework guns.
+In summer of 2024, we thought of making our own custom minigame, instead of being limited by the features of that server. At the time I was working on a few other projects, so it was not until August that we started the project. I was on holidays in Thailand at the time, but I still got one very key feature working — the firework guns.
 
 ### The development process
-We resumed working on it after school started again in September 2024. After one and a half months of work, we released version 0.1.0 on October 17th. It had 1 custom-built map, working game logic, many custom features and items and 633 commits on our repository. 
+We resumed working on it after school started again in September 2024. After one and a half months of work, we released version `0.1.0` on October 17th. It had 1 custom-built map, working game logic, many custom features and items and 633 commits on our repository. 
 
 Around this time, the LearnSpigot Christmas Charity Event was announced. We planned to finish Firework Wars by then and play it during the event. Unfortunately, their plugin was made in kotlin and followed a very strict game engine design, completely different to how we did it. This made the integration nearly impossible and the idea was scrapped.
 
-The work continues, and Firework Wars v1.0.0 was released - one new map, tons of new features, even more bug fixes and 876 commits later. We planned to showcase our game by editing some clips and stitching them together. In the end we never posted it though.
+The work continues, and Firework Wars `v1.0.0` was released — one new map, tons of new features, even more bug fixes and 876 commits later. We planned to showcase our game by editing some clips and stitching them together. In the end we never posted it though.
 
-After the Christmas Event concluded, I made 2 more plugins - a lobby and a core plugin - to turn Firework Wars from just a minigame plugin to a playable minigame server. At this time I was skiing in Austria, but I still managed to make a pretty decent lobby in just a few evenings. We also built a small map for the lobby.
+After the Christmas Event concluded, I made 2 more plugins — a lobby and a core plugin — to turn Firework Wars from just a minigame plugin to a playable minigame server. At this time I was skiing in Austria, but I still managed to make a pretty decent lobby in just a few evenings. We also built a small map for the lobby.
 
 At this point, all that was left was the finishing touches. I added all the crazy cosmetic features from my 6-month-old to-do list and added some quality-of-life features.
 
