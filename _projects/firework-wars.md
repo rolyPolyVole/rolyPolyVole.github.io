@@ -9,12 +9,12 @@ header:
   teaser: "firework-wars.png"
 ---
 
-
+<br />
 # The Minigame
-The goal in Firework Wars is to kill all other teams using firework-focused weapons. Each team begins in a different part of the map. Loot chests are spread around the map, containing vital supplies for surviving. Central chests tend to have better loot. Every map is (partly) hand-built and highly unique, filled with custom features, easter eggs, secrets and traps.
+The goal in Firework Wars is to kill all other teams using firework-focused weapons. Each team begins in a different part of the map. Loot chests are spread around the map, containing vital supplies for surviving. Central chests tend to have better loot. Every map is *(partially)* hand-built and highly unique, filled with custom features, easter eggs, secrets and traps.
 
 # How it all started
-I was playing on a Minecraft server called PvPLegacy with my friend one day. The server allows you to create your own kits (i.e. the inventory contents of each player) and duel other players with them. We joined a 3v3 game whose kit was a WWI themed kit, with fireworks and crossbows as the main weapon. It was extremely fun, and after the owner of the kit left, I decided to take that kit and improve on it.
+I was playing on a Minecraft server called <img src="/images/custom_icons/pvplegacy.png" alt="PvPLegacy" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">PvPLegacy with my friend one day. The server allows you to create your own kits *(i.e. the inventory contents of each player)* and duel other players with them. We joined a 3v3 game whose kit was a WWI themed kit, with fireworks and crossbows as the main weapon. It was extremely fun, and after the owner of the kit left, I decided to take that kit and improve on it.
 
 In summer of 2024, we thought of making our own custom minigame, instead of being limited by the features of that server. At the time I was working on a few other projects, so it was not until August that we started the project. I was on holidays in Thailand at the time, but I still got one very key feature working — the firework guns.
 
@@ -54,7 +54,7 @@ We've done everything else, so now it's time to get a playerbase. I made a YouTu
 This project is not open-source, as we plan to make money off it later on. However, the lobby and the core plugin are available, and all of our maps are also on our GitHub. *(Yes you can put Minecraft worlds there, it's pretty convenient actually)* <br />
 
 <img src="/images/custom_icons/github.png" alt="GitHub" class="theme-aware-icon github-icon" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">[https://github.com/fireworkwars](https://github.com/fireworkwars) <br />
-<img src="/images/custom_icons/youtube.png" alt="YouTube" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">[https://youtube.com/fireworkwarsmc](https://youtube.com/fireworkwarsmc)
+<img src="/images/custom_icons/youtube.png" alt="YouTube" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">[https://youtube.com/@fireworkwarsmc](https://youtube.com/@fireworkwarsmc)
 
 # Try it out
 <img src="/images/custom_icons/play.png" alt="Server" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">Join the server with the following IP: `play.fireworkwars.xyz` <br />
