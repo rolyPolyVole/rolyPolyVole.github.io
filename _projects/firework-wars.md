@@ -25,7 +25,7 @@ Around this time, the LearnSpigot Christmas Charity Event was announced. We plan
 
 The work continues, and Firework Wars `v1.0.0` was released — one new map, tons of new features, even more bug fixes and 876 commits later. We planned to showcase our game by editing some clips and stitching them together. In the end we never posted it though.
 
-After the Christmas Event concluded, I made 2 more plugins — a lobby and a core plugin — to turn Firework Wars from just a minigame plugin to a playable minigame server. At this time I was skiing in Austria, but I still managed to make a pretty decent lobby in just a few evenings. We also built a small map for the lobby.
+After the Christmas Event concluded, I made 2 more plugins — a lobby and a core plugin — to turn Firework Wars from just a minigame plugin to a playable minigame server. I was on a ski trip in Austria, but I still managed to make a pretty decent lobby in just a few evenings. We also built a small map for the lobby.
 
 At this point, all that was left was the finishing touches. I added all the crazy cosmetic features from my 6-month-old to-do list and added some quality-of-life features.
 
