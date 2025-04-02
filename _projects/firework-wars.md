@@ -109,28 +109,28 @@ This project is not open-source, as we plan to make money off it later on. Howev
 </style>
 
 <div class="member__container">
-  <a href="https://github.com/johndoe" class="member__link">
+  <a href="https://enderman.dev" class="member__link">
     <div class="member__card">
       <div class="member__avatar">
-        <img src="/images/bio-photo.jpg" alt="John Doe">
+        <img src="/images/enderman.png" alt="Esoteric Enderman">
       </div>
       <div class="member__info">
-        <h3 class="member__name">John Doe</h3>
-        <p class="member__role">Lead Developer</p>
+        <h3 class="member__name">Esoteric Enderman</h3>
+        <p class="member__role">Main Developer & Map Designer</p>
       </div>
     </div>
   </a>
 </div>
 
 <div class="member__container">
-  <a href="https://github.com/janesmith" class="member__link">
+  <a href="https://rolyPolyVole.github.io" class="member__link">
     <div class="member__card">
       <div class="member__avatar">
-        <img src="/images/bio-photo-2.jpg" alt="Jane Smith">
+        <img src="/images/rolyPolyVole.png" alt="rolyPolyVole">
       </div>
       <div class="member__info">
-        <h3 class="member__name">Jane Smith</h3>
-        <p class="member__role">Map Designer</p>
+        <h3 class="member__name">rolyPolyVole</h3>
+        <p class="member__role">Main Developer, Map Designer & Server Manager</p>
       </div>
     </div>
   </a>
