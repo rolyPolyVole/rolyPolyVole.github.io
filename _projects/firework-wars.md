@@ -35,6 +35,8 @@ In March 2025, I bought a new laptop, freeing my old one to be turned into a ser
 - 24GB DDR3 1600MHz memory
 - 1TB SSD storage
 
+<br />
+
 The CPU can handle 2-4 servers maybe, memory is slightly worrying but I can upgrade it to 32GB, and the secondary storage is more than enough.
 
 After 2 days of work, I got the server fully set up. I installed everything I needed, took all of the security measures, and enabled remote ssh connection so I can control my server from anywhere. I bought the domain `fireworkwars.xyz` (all the way back in November, I severely overestimated how fast I can work) and configured `play.fireworkwars.xyz` to lead to the server.
@@ -45,11 +47,19 @@ We've done everything else, so now it's time to get a playerbase. I made a YouTu
 ### Links
 This project is not open-source, as we plan to make money off it later on. However, the lobby and the core plugin are available, and all of our maps are also on our GitHub. (Yes you can put Minecraft worlds there, it's pretty convenient actually)
 
+<br />
+
 https://github.com/fireworkwars
+
+<br />
+
 https://youtube.com/fireworkwarsmc
 
 ### Try it out
 Join the server with the following IP: `play.fireworkwars.xyz`
+
+<br />
+
 Also check out our Discord: https://discord.fireworkwars.xyz
 
 ### Members
