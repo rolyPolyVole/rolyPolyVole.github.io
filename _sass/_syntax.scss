@@ -11,6 +11,11 @@ div.highlighter-rouge, figure.highlight {
   background-color: var(--global-code-background-color);
   box-shadow: $box-shadow;
   font-size: $type-size-4;
+  
+  /* Use specific border color for code blocks in dark mode */
+  html[data-theme="dark"] & {
+    border-color: var(--global-code-border-color);
+  }
 
   &:before {
     position: absolute;
