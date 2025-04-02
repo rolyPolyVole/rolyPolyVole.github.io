@@ -12,12 +12,14 @@ header:
 <br />
 # The Minigame
 The goal in Firework Wars is to kill all other teams using firework-focused weapons. Each team begins in a different part of the map. Loot chests are spread around the map, containing vital supplies for surviving. Central chests tend to have better loot. Every map is *(partially)* hand-built and highly unique, filled with custom features, easter eggs, secrets and traps.
+
 <br />
 
 # How it all started
-I was playing on a Minecraft server called <img src="/images/custom_icons/pvplegacy.png" alt="PvPLegacy" style="width: 1.5em; height: 1.5em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">PvPLegacy with my friend one day. The server allows you to create your own kits *(i.e. the inventory contents of each player)* and duel other players with them. We joined a 3v3 game whose kit was a WWI themed kit, with fireworks and crossbows as the main weapon. It was extremely fun, and after the owner of the kit left, I decided to take that kit and improve on it.
+I was playing on a Minecraft server called <img src="/images/custom_icons/pvplegacy.png" alt="PvPLegacy" style="width: 1.5em; height: 1.5em; object-fit: contain; margin-right: 0.3em; vertical-align: middle;">PvPLegacy with my friend one day. The server allows you to create your own kits *(i.e. the inventory contents of each player)* and duel other players with them. We joined a 3v3 game whose kit was a WWI themed kit, with fireworks and crossbows as the main weapon. It was extremely fun, and after the owner of the kit left, I decided to take that kit and improve on it.
 
 In summer of 2024, we thought of making our own custom minigame, instead of being limited by the features of that server. At the time I was working on a few other projects, so it was not until August that we started the project. I was on holidays in Thailand at the time, but I still got one very key feature working — the firework guns.
+
 <br />
 
 # The development process
@@ -30,6 +32,7 @@ The work continues, and Firework Wars `v1.0.0` was released — one new map, ton
 After the Christmas Event concluded, I made 2 more plugins — a lobby and a core plugin — to turn Firework Wars from just a minigame plugin to a playable minigame server. I was on a ski trip in Austria, but I still managed to make a pretty decent lobby in just a few evenings. We also built a small map for the lobby.
 
 At this point, all that was left was the finishing touches. I added all the crazy cosmetic features from my 6-month-old to-do list and added some quality-of-life features.
+
 <br />
 
 # Making the server
@@ -49,10 +52,12 @@ In March 2025, I bought a new laptop, freeing my old one to be turned into a ser
 The CPU can handle 2-4 servers maybe, memory is slightly worrying but I can upgrade it to 32GB, and the secondary storage is more than enough.
 
 After 2 days of work, I got the server fully set up. I installed everything I needed, took all of the security measures, and enabled remote ssh connection so I can control my server from anywhere. I bought the domain `fireworkwars.xyz` *(all the way back in November, I severely overestimated how fast I can work)* and configured `play.fireworkwars.xyz` to lead to the server.
+
 <br />
 
 # Future plans
 We've done everything else, so now it's time to get a playerbase. I made a YouTube channel and posted some showcases, but the main plan is to reach out to a small youtuber who's willing to make a video or two on our server. Are you a small youtuber? Get in touch!
+
 <br />
 
 # Links
@@ -60,11 +65,13 @@ This project is not open-source, as we plan to make money off it later on. Howev
 
 <img src="/images/custom_icons/github.png" alt="GitHub" class="theme-aware-icon github-icon" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">[https://github.com/fireworkwars](https://github.com/fireworkwars) <br />
 <img src="/images/custom_icons/youtube.png" alt="YouTube" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">[https://youtube.com/@fireworkwarsmc](https://youtube.com/@fireworkwarsmc)
+
 <br />
 
 # Try it out
 <img src="/images/custom_icons/play.png" alt="Server" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">Join the server with the following IP: `play.fireworkwars.xyz` <br />
 <img src="/images/custom_icons/discord.png" alt="Discord" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">Also check out our Discord: [https://discord.fireworkwars.xyz](https://discord.fireworkwars.xyz)
+
 <br />
 
 # Members
@@ -75,11 +82,11 @@ This project is not open-source, as we plan to make money off it later on. Howev
 }
 .member__link {
   display: block;
-  text-decoration: none;
+  text-decoration: none !important;
   color: inherit;
 }
 .member__link:hover {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 .member__link:hover .member__card {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
