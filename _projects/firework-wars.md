@@ -19,7 +19,7 @@ I was playing on a Minecraft server called <img src="/images/custom_icons/pvpleg
 In summer of 2024, we thought of making our own custom minigame, instead of being limited by the features of that server. At the time I was working on a few other projects, so it was not until August that we started the project. I was on holidays in Thailand at the time, but I still got one very key feature working — the firework guns.
 
 # The development process
-We resumed working on it after school started again in September 2024. After one and a half months of work, we released version `v0.1.0` on October 17th. It had 1 custom-built map, working game logic, many custom features and items and 633 commits to our repository. 
+We resumed working on it after school started again in September 2024. After one and a half months of work, we released version `v0.1.0` on October 17th. It had one custom-built map, working game logic, many custom features and items and 633 commits to our repository. 
 
 Around this time, the LearnSpigot Christmas Charity Event was announced. We planned to finish Firework Wars by then and play it during the event. Unfortunately, their plugin was made in kotlin and followed a very strict game engine design, completely different to how we did it. This made the integration nearly impossible and the idea was scrapped.
 
