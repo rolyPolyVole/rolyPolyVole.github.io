@@ -1,0 +1,47 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="project__item">
+  <article class="project__card" itemscope itemtype="http://schema.org/CreativeWork">
+    <h2 class="project__item-title" itemprop="headline">
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+    </h2>
+    
+    {% if post.date %}
+      <p class="project__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+    {% endif %}
+
+    {% if post.read_time %}
+      <p class="project__date"><strong><i class="fa fa-fw fa-clock" aria-hidden="true"></i> Read Time:</strong> {% include read-time.html %}</p>
+    {% endif %}
+
+    {% if teaser %}
+      <div class="project__item-teaser">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+      </div>
+    {% endif %}
+
+    {% if post.excerpt %}
+      <p class="project__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+    {% endif %}
+    
+    <a href="{{ base_path }}{{ post.url }}" class="btn btn--info project__read-more">Read More</a>
+  </article>
+</div>
