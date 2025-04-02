@@ -6,6 +6,6 @@ permalink: /projects/firework-wars/
 date: 2025-04-02
 status: "In progress"
 header:
-  teaser: "500x300.png"
+  teaser: "firework-wars.png"
 ---
 
