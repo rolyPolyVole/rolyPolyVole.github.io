@@ -106,6 +106,9 @@ html[data-theme="dark"] .member__card {
   background-color: #252525; /* Slightly lighter than dark mode background */
   border-color: #333; /* Darker border instead of white */
 }
+html[data-theme="dark"] .member__link:hover .member__card {
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.15); /* Lighter shadow for dark mode */
+}
 .member__avatar {
   margin-right: 1.5em;
 }
@@ -157,5 +160,7 @@ html[data-theme="dark"] .member__card {
     </div>
   </a>
 </div>
+
+<br />
 
 # Gallery
