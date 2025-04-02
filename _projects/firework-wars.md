@@ -48,7 +48,7 @@ The CPU can handle 2-4 servers maybe, memory is slightly worrying but I can upgr
 After 2 days of work, I got the server fully set up. I installed everything I needed, took all of the security measures, and enabled remote ssh connection so I can control my server from anywhere. I bought the domain `fireworkwars.xyz` *(all the way back in November, I severely overestimated how fast I can work)* and configured `play.fireworkwars.xyz` to lead to the server.
 
 # Future plans
-We've done everything else, so now it's time to get a playerbase. I made a YouTube channel and posted some showcases, but the main plan is to reach out to a small youtuber who's willing to make a video or two on our server.
+We've done everything else, so now it's time to get a playerbase. I made a YouTube channel and posted some showcases, but the main plan is to reach out to a small youtuber who's willing to make a video or two on our server. Are you a small youtuber? Get in touch!
 
 # Links
 This project is not open-source, as we plan to make money off it later on. However, the lobby and the core plugin are available, and all of our maps are also on our GitHub. *(Yes you can put Minecraft worlds there, it's pretty convenient actually)* <br />
