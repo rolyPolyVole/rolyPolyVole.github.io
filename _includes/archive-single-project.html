@@ -14,18 +14,6 @@
 
 <div class="project__item">
   <article class="project__card" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="project__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
-      </div>
-    {% endif %}
-
     <h2 class="project__item-title" itemprop="headline">
       {{ title }}
     </h2>
@@ -38,13 +26,25 @@
       <p class="project__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
     {% endif %}
 
-    {% if post.status %}
+      {% if post.status %}
       {% assign status_icon = "fa-info-circle" %}
       {% if post.status == "Completed" %}{% assign status_icon = "fa-check-circle" %}{% endif %}
       {% if post.status == "In Progress" %}{% assign status_icon = "fa-spinner" %}{% endif %}
       {% if post.status == "Planning" %}{% assign status_icon = "fa-lightbulb" %}{% endif %}
       {% if post.status == "On Hold" %}{% assign status_icon = "fa-pause-circle" %}{% endif %}
       <p class="project__date"><strong><i class="fa fa-fw {{ status_icon }}" aria-hidden="true"></i> Status:</strong> {{ post.status }}</p>
+    {% endif %}
+
+    {% if teaser %}
+      <div class="project__item-teaser">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+      </div>
     {% endif %}
 
     {% if post.excerpt %}
