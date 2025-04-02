@@ -9,16 +9,16 @@ header:
   teaser: "firework-wars.png"
 ---
 
-### The minigame
+# The minigame
 The goal in Firework Wars is to kill all other teams using firework-focused weapons. Each team begins in a different part of the map. Loot chests are spread around the map, containing vital supplies for surviving. Central chests tend to have better loot. Every map is (partly) hand-built and highly unique, filled with custom features, easter eggs, secrets and traps.
 
-### How it all started
+# How it all started
 I was playing on a Minecraft server called PvPLegacy with my friend one day. The server allows you to create your own kits (i.e. the inventory contents of each player) and duel other players with them. We joined a 3v3 game whose kit was a WWI themed kit, with fireworks and crossbows as the main weapon. It was extremely fun, and after the owner of the kit left, I decided to take that kit and improve on it.
 
 In summer of 2024, we thought of making our own custom minigame, instead of being limited by the features of that server. At the time I was working on a few other projects, so it was not until August that we started the project. I was on holidays in Thailand at the time, but I still got one very key feature working — the firework guns.
 
-### The development process
-We resumed working on it after school started again in September 2024. After one and a half months of work, we released version `0.1.0` on October 17th. It had 1 custom-built map, working game logic, many custom features and items and 633 commits on our repository. 
+# The development process
+We resumed working on it after school started again in September 2024. After one and a half months of work, we released version `v0.1.0` on October 17th. It had 1 custom-built map, working game logic, many custom features and items and 633 commits to our repository. 
 
 Around this time, the LearnSpigot Christmas Charity Event was announced. We planned to finish Firework Wars by then and play it during the event. Unfortunately, their plugin was made in kotlin and followed a very strict game engine design, completely different to how we did it. This made the integration nearly impossible and the idea was scrapped.
 
@@ -28,12 +28,12 @@ After the Christmas Event concluded, I made 2 more plugins — a lobby and a cor
 
 At this point, all that was left was the finishing touches. I added all the crazy cosmetic features from my 6-month-old to-do list and added some quality-of-life features.
 
-### Making the server
+# Making the server
 In March 2025, I bought a new laptop, freeing my old one to be turned into a server. I didn't have a whole lot of experience, but with enough ChatGPT and a certain braincell threshold anything is possible. My old laptop is over 10 years old, so its specs aren't great. Still enough for a decent Minecraft server though.
 
 <div class="project__item">
   <article class="project__card">
-    <h2 class="project__item-title">Server Specs</h2>
+    <h2 class="project__item-title">Server Specifications</h2>
     <ul>
       <li>Intel core i7-4800MQ processor</li>
       <li>24GB DDR3 1600MHz memory</li>
@@ -42,33 +42,24 @@ In March 2025, I bought a new laptop, freeing my old one to be turned into a ser
   </article>
 </div>
 
-<br />
-
 The CPU can handle 2-4 servers maybe, memory is slightly worrying but I can upgrade it to 32GB, and the secondary storage is more than enough.
 
-After 2 days of work, I got the server fully set up. I installed everything I needed, took all of the security measures, and enabled remote ssh connection so I can control my server from anywhere. I bought the domain `fireworkwars.xyz` (all the way back in November, I severely overestimated how fast I can work) and configured `play.fireworkwars.xyz` to lead to the server.
+After 2 days of work, I got the server fully set up. I installed everything I needed, took all of the security measures, and enabled remote ssh connection so I can control my server from anywhere. I bought the domain `fireworkwars.xyz` **(***all the way back in November, I severely overestimated how fast I can work***)** and configured `play.fireworkwars.xyz` to lead to the server.
 
-### Future plans
+# Future plans
 We've done everything else, so now it's time to get a playerbase. I made a YouTube channel and posted some showcases, but the main plan is to reach out to a small youtuber who's willing to make a video or two on our server.
 
-### Links
-This project is not open-source, as we plan to make money off it later on. However, the lobby and the core plugin are available, and all of our maps are also on our GitHub. (Yes you can put Minecraft worlds there, it's pretty convenient actually)
+# Links
+This project is not open-source, as we plan to make money off it later on. However, the lobby and the core plugin are available, and all of our maps are also on our GitHub. **(***Yes you can put Minecraft worlds there, it's pretty convenient actually***)** <br />
 
-<br />
-
-https://github.com/fireworkwars
-
-<br />
-
+https://github.com/fireworkwars <br />
 https://youtube.com/fireworkwarsmc
 
-### Try it out
-Join the server with the following IP: `play.fireworkwars.xyz`
-
-<br />
+# Try it out
+Join the server with the following IP: `play.fireworkwars.xyz` <br />
 
 Also check out our Discord: https://discord.fireworkwars.xyz
 
-### Members
+# Members
 
-### Gallery
+# Gallery
