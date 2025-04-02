@@ -104,7 +104,7 @@ layout: default
         {% include page__taxonomy.html %}
       </footer>
 
-      {% if page.share and page.collection != 'projects' %}{% include social-share.html %}{% endif %}
+      {% if page.share and page.collection != 'projects' and page.collection != 'blog' %}{% include social-share.html %}{% endif %}
 
       {% if page.collection != 'projects' %}{% include post_pagination.html %}{% endif %}
     </div>
