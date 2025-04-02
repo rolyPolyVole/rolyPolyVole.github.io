@@ -31,9 +31,16 @@ At this point, all that was left was the finishing touches. I added all the craz
 ### Making the server
 In March 2025, I bought a new laptop, freeing my old one to be turned into a server. I didn't have a whole lot of experience, but with enough ChatGPT and a certain braincell threshold anything is possible. My old laptop is over 10 years old, so its specs aren't great. Still enough for a decent Minecraft server though.
 
-- Intel core i7-4800MQ processor
-- 24GB DDR3 1600MHz memory
-- 1TB SSD storage
+<div class="project__item">
+  <article class="project__card">
+    <h2 class="project__item-title">Server Specs</h2>
+    <ul>
+      <li>Intel core i7-4800MQ processor</li>
+      <li>24GB DDR3 1600MHz memory</li>
+      <li>1TB SSD storage</li>
+    </ul>
+  </article>
+</div>
 
 <br />
 
