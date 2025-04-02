@@ -53,12 +53,12 @@ We've done everything else, so now it's time to get a playerbase. I made a YouTu
 # Links
 This project is not open-source, as we plan to make money off it later on. However, the lobby and the core plugin are available, and all of our maps are also on our GitHub. *(Yes you can put Minecraft worlds there, it's pretty convenient actually)* <br />
 
-<img src="/images/custom_icons/github.png" alt="GitHub" class="theme-aware-icon github-icon" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">https://github.com/fireworkwars <br />
-<img src="/images/custom_icons/youtube.png" alt="YouTube" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">https://youtube.com/fireworkwarsmc
+<img src="/images/custom_icons/github.png" alt="GitHub" class="theme-aware-icon github-icon" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">[https://github.com/fireworkwars](https://github.com/fireworkwars) <br />
+<img src="/images/custom_icons/youtube.png" alt="YouTube" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">[https://youtube.com/fireworkwarsmc](https://youtube.com/fireworkwarsmc)
 
 # Try it out
 <img src="/images/custom_icons/play.png" alt="Server" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">Join the server with the following IP: `play.fireworkwars.xyz` <br />
-<img src="/images/custom_icons/discord.png" alt="Discord" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">Also check out our Discord: https://discord.fireworkwars.xyz
+<img src="/images/custom_icons/discord.png" alt="Discord" style="width: 1em; height: 1em; object-fit: contain; margin-right: 0.5em; vertical-align: middle;">Also check out our Discord: [https://discord.fireworkwars.xyz](https://discord.fireworkwars.xyz)
 
 # Members
 
