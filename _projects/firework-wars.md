@@ -147,6 +147,20 @@ html[data-theme="dark"] .member__link:hover .member__card {
 </style>
 
 <div class="member__container">
+  <a href="https://rolyPolyVole.github.io" class="member__link">
+    <div class="member__card">
+      <div class="member__avatar">
+        <img src="/images/rolyPolyVole.png" alt="rolyPolyVole">
+      </div>
+      <div class="member__info">
+        <h3 class="member__name">rolyPolyVole</h3>
+        <p class="member__role">Main Developer, Map Designer & Server Admin</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+<div class="member__container">
   <a href="https://enderman.dev" class="member__link">
     <div class="member__card">
       <div class="member__avatar">
@@ -155,20 +169,6 @@ html[data-theme="dark"] .member__link:hover .member__card {
       <div class="member__info">
         <h3 class="member__name">Esoteric Enderman</h3>
         <p class="member__role">Main Developer & Map Designer</p>
-      </div>
-    </div>
-  </a>
-</div>
-
-<div class="member__container">
-  <a href="https://rolyPolyVole.github.io" class="member__link">
-    <div class="member__card">
-      <div class="member__avatar">
-        <img src="/images/rolyPolyVole.png" alt="rolyPolyVole">
-      </div>
-      <div class="member__info">
-        <h3 class="member__name">rolyPolyVole</h3>
-        <p class="member__role">Main Developer, Map Designer & Server Manager</p>
       </div>
     </div>
   </a>
