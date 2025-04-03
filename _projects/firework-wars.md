@@ -10,6 +10,7 @@ header:
 ---
 
 <br />
+
 # The Minigame
 The goal in Firework Wars is to kill all other teams using firework-focused weapons. Each team begins in a different part of the map. Loot chests are spread around the map, containing vital supplies for surviving. Central chests tend to have better loot. Every map is *(partially)* hand-built and highly unique, filled with custom features, easter eggs, secrets and traps.
 
@@ -80,17 +81,21 @@ This project is not open-source, as we plan to make money off it later on. Howev
 .member__container {
   margin-bottom: 1.5em;
 }
+
 .member__link {
   display: block;
   text-decoration: none !important;
   color: inherit;
 }
+
 .member__link:hover {
   text-decoration: none !important;
 }
+
 .member__link:hover .member__card {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
+
 .member__card {
   display: flex;
   align-items: center;
@@ -101,36 +106,44 @@ This project is not open-source, as we plan to make money off it later on. Howev
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease;
 }
+
 /* Dark mode specific styling */
 html[data-theme="dark"] .member__card {
   background-color: #252525; /* Slightly lighter than dark mode background */
   border-color: #333; /* Darker border instead of white */
 }
+
 html[data-theme="dark"] .member__link:hover .member__card {
   box-shadow: 0 5px 15px rgba(255, 255, 255, 0.15); /* Lighter shadow for dark mode */
 }
+
 .member__avatar {
   margin-right: 1.5em;
 }
+
 .member__avatar img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
   object-fit: cover;
 }
+
 .member__info {
   flex: 1;
 }
+
 .member__name {
   margin: 0 0 0.25em 0;
   font-size: 1.2em;
   font-weight: bold;
 }
+
 .member__role {
   margin: 0;
   font-size: 0.9em;
   color: var(--global-text-color-light);
 }
+
 </style>
 
 <div class="member__container">
